@@ -2,7 +2,7 @@
 tokopedia play clone (backend only)
 
 ## Database Structure
-
+![mid-term drawio](https://github.com/fairuzazzahra/mid-term/assets/56762644/aa93f02b-52bf-4e8b-abd2-1f17d028796b)
 
 ## API Structure
 
@@ -11,7 +11,7 @@ tokopedia play clone (backend only)
 * Product object
 ```
 {
-  linkProduct : string,
+  link_product : string,
   title : string,
   price : number
 //  video_id : <video_id>
@@ -128,7 +128,7 @@ Delete the specified product.
 * Video object
 ```
 {
-  urlImage : string,
+  url_image : string,
   thumbnail : string
 }
 ```
