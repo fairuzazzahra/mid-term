@@ -6,6 +6,21 @@ const Product = require("../models/product");
 const Comment = require("../models/comment");
 const Submit = require("../models/submit");
 
+// GET -- find all product
+router.get("/product", async (req, res) => {
+  try {
+    // db.product.find()
+    const allProducts = await Product.find();
+    res.status(200).json({
+      songs: allProducts,
+    });
+  } catch (err) {
+    res.status(500).json({
+      message: err.message,
+    });
+  }
+});
+
 // GET -- find product by id
 router.get("/product/:id", async (req, res) => {
   try {
