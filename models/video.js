@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 // Mongoose Schema => define structure inside MongoDB collection
 const videoSchema = mongoose.Schema({
-  urlImage: {
+  url_image: {
     required: true,
     type: String,
   },
