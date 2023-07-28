@@ -2,7 +2,8 @@
 tokopedia play clone (backend only)
 
 ## Database Structure
-db
+
+
 ## API Structure
 
 ## List API request and response
@@ -13,6 +14,7 @@ db
   linkProduct : string,
   title : string,
   price : number
+//  video_id : <video_id>
 }
 ```
 **GET /product**
@@ -154,7 +156,8 @@ Return the specified video.
 {
   username : string,
   comment : string,
-  timestamp
+  timestamp,
+// video_id : <video_id>
 }
 ```
 
