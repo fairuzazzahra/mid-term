@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 // Mongoose Schema => define structure inside MongoDB collection
 const productSchema = mongoose.Schema({
-  linkProduct: {
+  link_product: {
     required: true,
     type: String,
   },
