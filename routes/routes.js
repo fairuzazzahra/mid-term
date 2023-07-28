@@ -12,7 +12,7 @@ router.get("/product", async (req, res) => {
     // db.product.find()
     const allProducts = await Product.find();
     res.status(200).json({
-      songs: allProducts,
+      products: allProducts,
     });
   } catch (err) {
     res.status(500).json({
